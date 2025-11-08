@@ -1,0 +1,11 @@
+C:\Users\Masuta_Family\source\repos\ReadContents\ReadContents\obj\Debug\ReadContents.csprojAssemblyReference.cache
+C:\Users\Masuta_Family\source\repos\ReadContents\ReadContents\obj\Debug\ReadContents.csproj.GenerateResource.cache
+C:\Users\Masuta_Family\source\repos\ReadContents\ReadContents\bin\Debug\ReadContents.exe.config
+C:\Users\Masuta_Family\source\repos\ReadContents\ReadContents\bin\Debug\ReadContents.exe
+C:\Users\Masuta_Family\source\repos\ReadContents\ReadContents\bin\Debug\ReadContents.pdb
+C:\Users\Masuta_Family\source\repos\ReadContents\ReadContents\obj\Debug\ReadContents.Properties.Resources.resources
+C:\Users\Masuta_Family\source\repos\ReadContents\ReadContents\obj\Debug\ReadContents.exe
+C:\Users\Masuta_Family\source\repos\ReadContents\ReadContents\obj\Debug\ReadContents.pdb
+C:\Users\Masuta_Family\source\repos\ReadContents\ReadContents\obj\Debug\ReadContents.HiraganaWindow.resources
+C:\Users\Masuta_Family\source\repos\ReadContents\ReadContents\obj\Debug\ReadContents.MainMenu.resources
+C:\Users\Masuta_Family\source\repos\ReadContents\ReadContents\obj\Debug\ReadContents.NumberWindow.resources

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D0C9484-546B-41DB-9CE6-3F19BACA6FDA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ReadContents</RootNamespace>
+    <AssemblyName>ReadContents</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.cs" />
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HiraganaWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HiraganaWindow.Designer.cs">
+      <DependentUpon>HiraganaWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumberWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumberWindow.Designer.cs">
+      <DependentUpon>NumberWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HiraganaWindow.resx">
+      <DependentUpon>HiraganaWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumberWindow.resx">
+      <DependentUpon>NumberWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hiragana\く.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hiragana\か.jpg" />
+    <Content Include="hiragana\こ.jpg" />
+    <Content Include="hiragana\た.jpg" />
+    <Content Include="hiragana\と.jpg" />
+    <Content Include="hiragana\ね.jpg" />
+    <Content Include="hiragana\は.jpg" />
+    <Content Include="hiragana\ひ.jpg" />
+    <Content Include="hiragana\へ.jpg" />
+    <Content Include="hiragana\ほ.jpg" />
+    <Content Include="hiragana\み.jpg" />
+    <Content Include="hiragana\れ.jpg" />
+    <Content Include="number\0.jpg" />
+    <Content Include="number\1.jpg" />
+    <Content Include="number\2.jpg" />
+    <Content Include="number\3.jpg" />
+    <Content Include="number\4.jpg" />
+    <Content Include="number\5.jpg" />
+    <Content Include="number\6.jpg" />
+    <Content Include="number\7.jpg" />
+    <Content Include="number\8.jpg" />
+    <Content Include="number\9.jpg" />
+    <None Include="hiragana\い.jpg" />
+    <None Include="hiragana\あ.jpg" />
+    <Content Include="hiragana\き.jpg" />
+    <Content Include="hiragana\し.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
