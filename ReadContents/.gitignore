@@ -1,0 +1,7 @@
+*.exe
+bin/Debug/
+bin/Release/
+ReadContents/hiranaga/
+ReadContents/number/
+.vs/
+ReadContents/obj/
