@@ -1,9 +1,9 @@
 *.exe
 bin/Debug/
 bin/Release/
-ReadContents/hiranaga/
-ReadContents/number/
+hiranaga/
+number/
 .vs/
 .vs/*.json
-ReadContents/obj/Debug/
-ReadContents/obj/Release/
+obj/Debug/
+obj/Release/
